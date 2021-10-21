@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>Registration Form Example</title>
+</head>
+<body>
+    <h1>Register</h1>
+        <form>
+    <h3>Credentials</h3>
+            <label for="Name">First name :</label>
+            <input id="Name" name="Name" placeholder="John / Sandra"
+            type="text" required>
+            <label for="Surname"> Last Name :</label>
+            <input id="Surname" name="Surname" placeholder="Stuart"
+            type="text" required>
+            
+
+            <br>
+     
+    <h3>Gender</h3>
+            <label for="Male">Male </label>
+            <input id="Male" name="gender" type="radio" value="Male">    
+            <label for="Female">Female </label>
+            <input id="Female" name="gender" type="radio" value="Female">
+            <label for="Other">Other </label>
+            <input id="Other" name="gender" type="radio" value="Other" required>   
+            
+            <br>
+        
+    <h3>Sign In</h3>
+            <label for="email">Email :</label>
+            <input id="email" name="email"
+            type="email" required>
+            <label for="password"> Password :</label>
+            <input id="password" name="password"
+            type="password" minlength="5" maxlength="10" required>
+            
+            <!-- <label for="email">Email :</label>
+            <input id="email" name="email"
+            type="email" required>
+            <label for="password"> Password :</label>
+            <input id="password" name="password"
+            type="password"
+            pattern="[0-9]{1}-[A-Za-z]{9}" minlength="5" maxlength="10"
+            required> -->
+
+            <br>
+    <h3>Date Of Birth</h3>    
+            <label for="birthday">Date Of Birth:</label>
+            <input type="date" id="birthday" name="birthday" max="2021-01-01" min="1900-01-01" required>
+
+
+            <br> <br>
+
+            <label for="termsAndConditions">I agree to the Terms and Conditions? </label>
+            <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted" required>
+            <h6><strong>Read </strong> <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" 
+                target="_blank"><em><strong>Terms an Conditions</strong></em> </a></h6>
+            
+         
+            <button>Submit</button>
+            <input type="reset">
+        </form>
+        
+</body>
+</html>
