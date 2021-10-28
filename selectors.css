@@ -82,7 +82,7 @@ div:nth-child(5) p:nth-child(3) {
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-div:nth-child(5) p em {
+div:nth-child(5) p /*:nth-child(2)*/ em {
     color: white;
     font-size: 20px;
 }
@@ -113,6 +113,7 @@ h1:hover {
 }
 
 /*Make the <a> element's that have been visited gray */
+
 a:visited {
     background-color: transparent;
     
