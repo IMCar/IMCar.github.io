@@ -1,0 +1,14 @@
+.navbar-light .navbar-brand{
+    color:rgb(4, 90, 8);
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:darkblue;
+    font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:rgb(248, 8, 8);
+}
