@@ -1,0 +1,13 @@
+.testnav{
+
+    border: 20px solid olivedrab;
+    border-style: groove;
+}
+
+.testnav-link{
+    
+    color: firebrick;
+    font-size: 22px;
+    font-family: fantasy;
+    font-style: italic;
+}
